@@ -1,0 +1,85 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: auto;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.scancontainer {
+  align-self: center;
+  padding: 0;
+  margin: auto;
+}
+
+.scanitem {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 10px 50px hsla(218, 44%, 22%, 0.2);
+}
+
+.scanitem img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textbox {
+  align-self: flex-start;
+}
+
+.textbox>h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  padding: 10px, 15px;
+}
+
+.textbox>p {
+  font-size: 15px;
+  text-align: center;
+  padding: 0 15px 0;
+  color: hsl(220, 15%, 55%);
+}
+
+footer {
+  position: fixed;
+  bottom: 2%;
+  z-index: 1;
+
+}
+
+footer>.attribution {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+
+}
+
+.attribution>.credit {
+  margin: 2px 0;
+  color: hsl(220, 15%, 55%);
+  font-size: 12px;
+}
+
+.attribution>.credit>a {
+  color: hsl(218, 44%, 22%);
+  text-decoration: none;
+}
